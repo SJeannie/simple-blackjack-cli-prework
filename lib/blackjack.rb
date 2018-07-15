@@ -47,9 +47,8 @@ def initial_round
     
 end
 
-def hit?(hand)
+def hit?(cards)
   
-  cards_total = hand
   prompt_user
   answer = get_user_input
   
