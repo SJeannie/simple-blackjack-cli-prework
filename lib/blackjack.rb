@@ -6,12 +6,8 @@ end
 
 def deal_card
   
-  card = Random.new(11)
-  card.rand(1..11)
-  dealt = card.rand(1..11) 
+  rand(1..11) 
   
-  return dealt
- 
 end
 
 def display_card_total(cards_total)
